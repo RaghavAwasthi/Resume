@@ -1,158 +1,247 @@
 	<!DOCTYPE html>
 	<html lang="en" dir="ltr">
-		<head>
-	<link rel="stylesheet" href="style.css">
 
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
-			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-			<meta charset="utf-8">
-			<title>My Resume</title>
-		</head>
-		<body>
+	<head>
+		<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta charset="utf-8">
+		<title>My Resume</title>
+	</head>
 
-	<div class="resume-wrapper">
-		<section class="profile section-padding">
-			<div class="container">
-				<div class="picture-resume-wrapper">
-	        <div class="picture-resume">
-	        <span><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="" /></span>
-	        <svg version="1.1" viewBox="0 0 350 350">
+	<body>
 
-	  <defs>
-	    <filter id="goo">
-	      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-	      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-	    </filter>
-	  </defs>
+		<div class="resume-wrapper">
+
+			<section class="profile section-padding">
+				<div class="container">
+					<div class="picture-resume-wrapper">
+						<div class="picture-resume">
+							<span><img src="images/image.jpg" alt="My Profile Picture" /></span>
 
 
-	<g filter="url(#goo)" >
+							<svg version="1.1" viewBox="0 0 350 350">
+								<defs>
+									<filter id="goo">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+										<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+									</filter>
+								</defs>
+								<g filter="url(#goo)">
+									<circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130" />
+									<circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7" />
+									<circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7" />
 
-	  <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
+								</g>
+							</svg>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="name-wrapper">
+						<h1> <span class="first-name">Raghav</span>
+							<span class="last-name">Awasthi</span></h1>
+					</div>
+					<div class="clearfix"></div>
+					<div class="contact-info clearfix">
+						<ul class="list-titles">
+							<li>Mail</li>
+							<li>Home</li>
+							<li>Birthday</li>
+							<li>GitHub</li>
+							<li>Linked In</li>
+							<li>Instagram</li>
+							<li>Facebook</li>
+						</ul>
+						<ul class="list-content " style="list-style-type:none;">
+							<li>raghavawasthi2014@gmail.com</li>
+							<li>Kanpur, India</li>
+							<li>August 7,2001</li>
+							<li><a href="https://github.com/RaghavAwasthi">@RaghavAwasthi</a></li>
+							<li><a href="https://www.instagram.com/iamraghavawasthi/">@iamraghavawasthi</a></li>
+							<li><a href="https://www.instagram.com/iamraghavawasthi/">@iamraghavawasthi</a></li>
+							<li><a href="https://www.facebook.com/iamraghavawasthi">@iamraghavawasthi</a></li>
+						</ul>
+					</div>
 
-	  <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
-	  <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
 
-	</g>
-	</svg>
-	      </div>
-	         <div class="clearfix"></div>
-	 </div>
-	      <div class="name-wrapper">
-	        <h1>John <br/>Anderson</h1><!-- YOUR NAME AND LAST NAME  -->
-	      </div>
-	      <div class="clearfix"></div>
-	      <div class="contact-info clearfix">
-	      	<ul class="list-titles">
-	      		<li>Call</li>
-	      		<li>Mail</li>
-	      		<li>Web</li>
-	      		<li>Home</li>
-	      	</ul>
-	        <ul class="list-content ">
-	        	<li>+34 123 456 789</li> <!-- YOUR PHONE NUMBER  -->
-	        	<li>j.anderson@gmail.com</li> <!-- YOUR EMAIL -->
-	        	<li><a href="#">janderson.com</a></li> <!-- YOUR WEBSITE  -->
-	        	<li>Los Angeles, CA</li> <!-- YOUR STATE AND COUNTRY  -->
-	        </ul>
-	      </div>
-	      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
-	      	<p><span class="bold">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod congue nisi, nec consequat quam. In consectetur faucibus turpis eget laoreet. Sed nec imperdiet purus. </p>
-	      </div>
-	      <div class="contact-social clearfix">
-	      	<ul class="list-titles">
-	      		<li>Twitter</li>
-	      		<li>Dribbble</li>
-	      		<li>Codepen</li>
-	      	</ul>
-	        <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-	      		<li><a href="">@janderson</a></li> <!-- YOUR TWITTER USER  -->
-	      		<li><a href="">janderson</a></li> <!-- YOUR DRIBBBLE USER  -->
-	      		<li><a href="">janderson</a></li> <!-- YOUR BEHANCE USER  -->
-	      	</ul>
-	      </div>
-			</div>
+					<span class="typed">
+						
+					</span>
+				</div>
+			</section>
+
+			<section class="experience section-padding">
+				<div class="education">
+					<h3 class="education-title">Education</h3>
+					<div class="education-holder">
+						<div class="education-wrapper clearfix">
+							<div class="experience-title">College</div>
+							<div class="time">Aug 2019 - Present</div>
+						</div>
+
+						<div class="qual-wrapper clearfix">
+							<div class="experience-title">Pranveer Singh Institute of Technology </div>
+							<div class="company-description">
+								<p>Bachelor of Technology in Computer Science Engineering</p>
+							</div>
+						</div>
+
+						<div class="education-wrapper clearfix">
+							<div class="experience-title">Intermediate</div>
+							<div class="time">2019</div>
+						</div>
+
+						<div class="qual-wrapper clearfix">
+							<div class="experience-title">Mercy Memorial School, Kanpur</div>
+							<div class="company-description">
+								<p>ISC Board </p>
+							</div>
+						</div>
+						<div class="education-wrapper clearfix">
+							<div class="experience-title">Matriculation</div>
+							<div class="time">2017</div>
+						</div>
+
+						<div class="qual-wrapper clearfix">
+							<div class="experience-title">Mercy Memorial School, Kanpur</div>
+							<div class="company-description">
+								<p>ICSE Board </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Projects are attached below -->
+				<div class="projects">
+					<h3 class="project-title">Projects</h3>
+
+					<div class="projects-wrapper clearfix">
+						<div class="project-title" href="github.com/RaghavAwasthi"><a href="https://github.com/RaghavAwasthi/">ServoGo Backend</a></div>
+						<div class="project-description">Built the Web Server from Scratch, Used Express , NodeJs framework , Implemented OAuth Sign In, Pushing Realtime Notifications to Client
+							, Provided REST APIs for Android as well as Web platforms.
+						</div>
+					</div>
+					<div class="projects-wrapper clearfix">
+						<div class="project-title" href="github.com/RaghavAwasthi"><a href="https://github.com/RaghavAwasthi/">ServoGo Web App</a></div>
+						<div class="project-description">Built the Web App from Scratch, Used ReactJs framework , Implemented OAuth Sign In, Realtime Updates from Client Android App, WebPrint Services,
+							Job PDF Generation.
+						</div>
+					</div>
+					<div class="projects-wrapper clearfix">
+						<div class="project-title" href="github.com/RaghavAwasthi"><a href="https://github.com/RaghavAwasthi/">ServoGo Android App</a></div>
+						<div class="project-description">Built the App from Scratch, Integrated Realtime Database, Encrypted 2 Step Sign on, Print Api, ML based service validation
+							, Realtime Updates on Service Status, Dark Theme, Support for Multiple Backend</div>
+					</div>
+					<div class="projects-wrapper clearfix">
+						<div class="project-title" href="github.com/RaghavAwasthi"><a href="https://github.com/RaghavAwasthi">Jboss Outreach Android App </a></div>
+						<div class="project-description">Built the app from Scratch, Integrated Github Rest APIs,Social Sign in, Realtime Database, Communication
+							Functionality</div>
+					</div>
+					<div class="projects-wrapper clearfix">
+						<div class="project-title" href="github.com/RaghavAwasthi"><a href="https://github.com/RaghavAwasthi">Lead Management Android App</a></div>
+						<div class="project-description">Worked on Features like Call Recording, Dark Theme, Open Source License Inclusion and several UI Improvements</div>
+					</div>
+					<div class="projects-wrapper clearfix">
+						<div class="project-title" href="github.com/RaghavAwasthi"><a href="https://github.com/RaghavAwasthi">Visiting Card Android App</a></div>
+						<div class="project-description">Integrated GeoFencing API , Dark Theme, Social Sign In</div>
+					</div>
+
+
+
+
+
+				</div>
+				<h3 class="experience-title">Experience</h3>
+
+				<div class="experience-wrapper">
+					<div class="job-wrapper clearfix">
+						<div class="experience-title">UPES CSI Hackathon 4.0 Finalist</div>
+
+					</div>
+
+					<div class="company-wrapper clearfix">
+						<div class="time">2020 </div>
+					</div>
+
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title">Google Code-In Mentor </div>
+						<div class="company-description">
+							<p>This is a Google's contest which introduces 13-17 year old pre-university students to open source software development.</p>
+						</div>
+
+					</div>
+					<div class="company-wrapper clearfix">
+						<div class="time">2019 - Present</div>
+					</div>
+
+
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title">Google Code-In Finalist </div>
+						<div class="company-description">
+							<p>This is a Google's contest which introduces 13-17 year old pre-university students to open source software development.
+								<br>You can read more about it here https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html</p>
+						</div>
+					</div>
+
+					<div class="company-wrapper clearfix">
+						<div class="time">2018 </div>
+					</div>
+
+
+
+
+
+
+
+
+
+				</div>
+				<!--Skill experience-->
+
+				<div class="section-wrapper clearfix">
+					<h3 class="section-title">Technologies</h3>
+					<ul>
+						<li class="skill-percentage">Frontend</li>
+						<li class="skill-percentage">Backend</li>
+						<li class="skill-percentage">Mobile Development</li>
+						<li class="skill-percentage">Data Science</li>
+						<li class="skill-percentage">Artificial Intelligence</li>
+					</ul>
+
+				</div>
+				<div class="section-wrapper clearfix">
+					<h3 class="section-title">Skills</h3>
+					<ul>
+						<li class="skills">JavaScript, ReactJs, HTML5, CSS, SASS</li>
+						<li class="skills">NodeJs,Heroku,Firebase,GCP</li>
+						<li class="skills">Android,Java,Kotlin,Flutter</li>
+						<li class="skills">Python,NumPy,Pandas</li>
+						<li class="skills">Neural Networks</li>
+						<li class="skills">Retrofit, ApacheUtils, Picasso, Glide, MapsSDk, Admobs</li>
+					</ul>
+
+				</div>
+
+
+
+		</div>
 		</section>
 
-	  <section class="experience section-padding">
-	  	<div class="container">
-	  		<h3 class="experience-title">Experience</h3>
-
-	      <div class="experience-wrapper">
-	      	<div class="company-wrapper clearfix">
-	      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-	          <div class="time">Nov 2012 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-	      	</div>
-
-	        <div class="job-wrapper clearfix">
-	        	<div class="experience-title">Front End Developer </div> <!-- JOB TITLE  -->
-	          <div class="company-description">
-	          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
-	          </div>
-	        </div>
-
-	        <div class="company-wrapper clearfix">
-	      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-	          <div class="time">Nov 2010 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-	      	</div>
-
-	         <div class="job-wrapper clearfix">
-	        	<div class="experience-title">Freelance, Web Designer / Web Developer</div> <!-- JOB TITLE  -->
-	          <div class="company-description">
-	          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
-	          </div>
-	        </div>
-
-	        <div class="company-wrapper clearfix">
-	      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-	          <div class="time">Nov 2009 - Nov 2010</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-	      	</div>
-
-	         <div class="job-wrapper clearfix">
-	        	<div class="experience-title">Web Designer </div> <!-- JOB TITLE  -->
-	          <div class="company-description">
-	          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>   <!-- JOB DESCRIPTION  -->
-	          </div>
-	        </div>
-
-	      </div><!--Skill experience-->
-
-	      <div class="section-wrapper clearfix">
-	      	<h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
-	        	<ul>
-	        		<li class="skill-percentage">HTML / HTML5</li>
-	        		<li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
-	        		<li class="skill-percentage">Javascript</li>
-	        		<li class="skill-percentage">Jquery</li>
-	        		<li class="skill-percentage">Wordpress</li>
-	        		<li class="skill-percentage">Photoshop</li>
-
-	        	</ul>
-
-	      </div>
-
-	      <div class="section-wrapper clearfix">
-	        <h3 class="section-title">Hobbies</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
-	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
-
-	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
-	      </div>
-
-	  	</div>
-	  </section>
-
-	  <div class="clearfix"></div>
-	</div>
+		<div class="clearfix"></div>
+		</div>
 
 	</body>
 	<script src="script.js" charset="utf-8"></script>
+
 	</html>
